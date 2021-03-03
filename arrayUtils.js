@@ -31,3 +31,5 @@ const orderUniqueNb = makeUnique(array2)
 console.log(maxNb)
 console.log(orderNb)
 console.log(orderUniqueNb)
+
+
