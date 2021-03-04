@@ -14,7 +14,9 @@ const  isPalindrome = (str) =>{
 }
 
 
-stringToReverse = reverseStr("Hello")
-palindromeString = isPalindrome("lol")
+const stringToReverse = reverseStr("Hello")
+const palindromeString = isPalindrome("Hello")
+
+
 console.log(stringToReverse)
 console.log(palindromeString)

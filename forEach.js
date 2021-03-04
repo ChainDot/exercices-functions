@@ -1,12 +1,23 @@
-const forEach = (array) => {
-  let copyArray = []
-  for(i=0; i < array.length; i++){
-    copyArray.push(array[i])
-  }
-  return copyArray
+ const capitalize = (array) => {
+  return array.toUpperCase()
 }
-const array1 = ['a', 'b', 'c']
+const fnEach = (array) => {
+  return  'fn applied to ' + array  
+}
 
-let res = forEach.array1
 
-console.log(res)
+const foreach = (fn, array) => {
+ for( let i = 0; i < array.length; i++){
+    console.log(fn(array[i])) 
+  }
+ 
+}
+
+
+const array1 = ['a', 'b', 'c'];
+
+
+foreach(fnEach, array1)
+
+
+

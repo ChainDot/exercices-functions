@@ -1,6 +1,5 @@
 const typeOf = (var1) => {
-  let result = ""
-  result = (typeof var1)
+  let result = (typeof var1)
   return  result
 }
 
