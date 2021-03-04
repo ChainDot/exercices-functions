@@ -1,12 +1,10 @@
 
 const count = (MIN, MAX, STEP) => {
-  for(let i = MIN; i <= MAX; i += STEP){
-    console.log(i)
+  for(let i = MIN; i <= MAX ; i+=STEP){
+   console.log(i) 
     
   }
- 
+  
 }
 
-counting = count(2, 100, 1)
-
-console.log(counting)
+let counting = count(1, 100, 2)
