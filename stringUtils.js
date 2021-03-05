@@ -5,7 +5,7 @@ const reverseStr = (str) => {
 
 const  isPalindrome = (str) =>{
   result = ""
-  if(str === str.split('').reverse().join('')){
+  if(str === reverseStr(str)){
     return true
   } else {
     return false
@@ -15,7 +15,7 @@ const  isPalindrome = (str) =>{
 
 
 const stringToReverse = reverseStr("Hello")
-const palindromeString = isPalindrome("Hello")
+const palindromeString = isPalindrome("adda")
 
 
 console.log(stringToReverse)

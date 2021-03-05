@@ -1,5 +1,3 @@
-
-
 const Filter = (fn, array) => {
   const copyArray = [...array] 
   const newArray = []
